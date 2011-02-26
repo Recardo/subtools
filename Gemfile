@@ -7,6 +7,14 @@ gem 'rails', '3.0.4'
 
 gem 'sqlite3'
 
+gem 'cancan'
+gem 'shoulda'
+gem 'factory_girl_rails'
+gem 'rspec'
+gem 'rails3-generators'
+gem 'bundler'
+
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
