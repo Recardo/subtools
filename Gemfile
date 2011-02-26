@@ -5,15 +5,20 @@ gem 'rails', '3.0.4'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'sqlite3-ruby'
 
 gem 'cancan'
-gem 'shoulda'
-gem 'factory_girl_rails'
-gem 'rspec'
 gem 'rails3-generators'
 gem 'bundler'
+gem 'haml'
+gem 'haml-rails'
 
+group :test do
+  gem "rspec"
+  gem "rspec-rails"  
+  gem 'shoulda'
+  gem 'factory_girl_rails'
+end
 
 # Use unicorn as the web server
 # gem 'unicorn'

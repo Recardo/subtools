@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Subtools</title>
-  <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
-  <%= csrf_meta_tag %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+    <head>
+        <title>Subtools</title>
+        <%= stylesheet_link_tag :all %>
+        <%= javascript_include_tag :defaults %>
+        <%= csrf_meta_tag %>
+    </head>
+    <body>
+        <h1><%= link_to "Subtools", root_path, :class => "roundbox orange" %>
+        </h1>
+            <div class="content roundbox">
+                Subtools - Aufträge nicht suchen - Aufträge finden
+				<p>
+					<%= yield %>
+				</p>
+            </div>        
+    </body>
 </html>
